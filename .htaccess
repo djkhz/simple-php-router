@@ -1,0 +1,3 @@
+RewriteRule ^public/ - [L]
+RewriteCond public/$0 -F
+RewriteRule .* public/$0 [L]
